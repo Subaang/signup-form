@@ -9,20 +9,30 @@ body{
 .image-container{
     height: 100%; 
     width: 40%;  
-    background-color: #234;
-   
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction:row;
+    align-items: end;
+    justify-content: center;
+    background-image: url("./bgm.jpg");
+}
+
+.image-container h6{
+    color: white;
+    font-size: 0.8em;
+    font-family: sans-serif;
 }
 
 .form-container-container{
     height: 100%; 
     width: 60%;
     display: block;
-
+    background-color: whitesmoke;
 }
 
 .header-text-container{
     width: 100%;
-    height:25%;
+    height:40%;
     padding:1.2em;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.8em;
@@ -30,17 +40,19 @@ body{
     box-sizing: border-box;
 }
 
-.form-container{
-    padding:1.2em;
-
-}
 
 .input-container{
     display: flex;
     align-items: stretch;
-    padding:1em;
     flex-wrap: wrap;
+    background-color: snow;
+    padding:1.2em;
+}
 
+.input-container > h4{
+    font-size: 20px;
+    margin:0px;
+    padding:0px;
 }
 
 .lcol,.rcol{
@@ -49,5 +61,29 @@ body{
 
 label{ display: block;}
 
+
+input{
+    background-color: #E5E7EB;
+}
+
+input:focus{
+    background-color: white;
+    border-color:blue;
+}
+
+#password:invalid,#confirm-password:invalid{
+    border-color: red;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    width:10em;
+    height:3em;
+}
+
+.linebreak {
+    width: 100%;
+  }
 
 

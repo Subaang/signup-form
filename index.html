@@ -5,41 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
     <link rel="stylesheet" href="./styles.css">
+
+    
 </head>
 <body>
-    <div class="image-container"></div>
+    <div class="image-container">
+        <div class="credits"><h6>Photo by <a href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></h6></div>
+    </div>
 
     <div class="form-container-container">
 
-        <div class="header-text-container">This is the login page for logging in to the Sign-up form you wish to log into. This is the login page for logging in to the Sign-up form you wish to log into. This is the login page for logging in to the Sign-up form you wish to log into. <br><br> LOGIN</div>
+        <div class="header-text-container">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up not to get started<br><br> You know you want to.</div>
 
         <div class="form-container">
             <form action="./destination" method="post">
 
                 <div class="input-container">
+                    <h4>Lets do this!</h4>
+                    <div class="linebreak"></div>
 
                 <div class="lcol">
                     <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name" name="first-name">
+                    <input type="text" id="first-name" name="first-name" required>
                     <label for="first-name">EMAIL</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="passworde" name="password">
+                    <input type="password" id="password" name="password" required>
                 </div>
 
                 <div class="rcol">
                     <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" name="last-name">
+                    <input type="text" id="last-name" name="last-name" required>
                     <label for="first-name">PHONE NUMBER</label>
-                    <input type="number" id="phone-number" name="phone-number">
-                    <label for="confirm-password">PASSWORD</label>
-                    <input type="password" id="confirm-password" name="confirm-password">
+                    <input type="number" id="phone-number" name="phone-number" required>
+                    <label for="confirm-password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
                 </div>
 
-            </div>
-
+            </div>  
+                <br><br><br><br><br><br> 
+                &nbsp&nbsp&nbsp 
                 <button type="submit">Create Account</button>
-
+                To login, click <a href="./here">here</a>
               
             </form>
 
